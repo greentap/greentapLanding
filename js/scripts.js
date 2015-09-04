@@ -3,11 +3,6 @@ var userEmail;
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 	mCheck = true; 
-
-	document.getElementById("contactNav").innerHTML = "";
-	document.getElementById("titleText").style.fontSize= "130px"; 
-	document.getElementById("mainCaption").style.fontSize= "45px"; 
-	document.getElementById("mainCaption").style.textAlign= "center"; 
 }
 
 function email(){
