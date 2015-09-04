@@ -21,7 +21,7 @@ alertify
   .defaultValue("")
   .okBtn("Submit")
   .cancelBtn("Cancel")
-  .prompt("The iOS release is right around the corner! If you could kindly put in your e-mail, I can let you know when it comes out. :)",
+  .prompt("The iOS release is right around the corner! If you put in your e-mail, I can let you know when it comes out. :)",
     function (val, event) {
 
       // The click event is in the event variable, so you can use it here.
